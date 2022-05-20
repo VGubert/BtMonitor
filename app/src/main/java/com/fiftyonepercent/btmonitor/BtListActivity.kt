@@ -15,7 +15,7 @@ import com.fiftyonepercent.btmonitor.databinding.ActivityMainBinding
 class BtListActivity : AppCompatActivity(), RcAdapter.Listener {
     private var btAdapter: BluetoothAdapter? = null
     private lateinit var binding: ActivityMainBinding
-    private lateinit var adapter: RcAdapter
+    private lateinit var adapter: RcAdapter //проверка
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
